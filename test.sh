@@ -18,7 +18,9 @@ echo $inp
 declare -i proc=$(echo $1 | tr -cd ',' | wc -c)
 proc=$((proc+1))
 echo "$proc"
-proc=2
+if [[ $proc -gt 25 ]]; then
+    proc=25
+fi
 
 mpicxx -o vid vid.cpp
 

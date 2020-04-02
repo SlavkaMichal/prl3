@@ -16,7 +16,7 @@ fi
 echo $inp
 
 declare -i proc=$(echo $1 | tr -cd ',' | wc -c)
-proc=$((proc+1))
+proc=$((proc))
 echo "$proc"
 if [[ $proc -gt 25 ]]; then
     proc=25

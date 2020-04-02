@@ -6,7 +6,7 @@
 
 using namespace std;
 
-int prefix_sum_local(int *arr, int range, int id)
+float prefix_sum_local(float *arr, int range, int id)
 {
     int new_range;
     if (range == 2){
@@ -46,8 +46,10 @@ int main(int argc, char *argv[])
     int view_point; // first element of the input
     int range;      // numbers per process
     int inpsize;
-    int *array;      // array of numbers
-    int root;
+    float *array;      // array of numbers
+    float root;
+    MPI_Status stat;
+
 
     MPI_Init(&argc, &argv);
     MPI_Comm_size(MPI_COMM_WORLD, &numprocs);
@@ -61,8 +63,8 @@ int main(int argc, char *argv[])
         range = range*2;
     }
 
-    if (id==0) cout << "2^ceil(log2(inpsize)-1): " << (pow(2, ceil(log(inpsize)/log(numprocs))-1))<< endl;
-    array = new int [range]{0};
+    //if (id==0) cout << "2^ceil(log2(inpsize)-1): " << (pow(2, ceil(log(inpsize)/log(numprocs))-1))<< endl;
+    array = new float [range]{0};
 
     for (int i = id*range; i < id*range+range && i < inpsize; i++){
         array[i%range] = atan2(stoi(argv[i+2]) - view_point, i);
@@ -72,17 +74,36 @@ int main(int argc, char *argv[])
 
     if ((id+1)*range > inpsize)
         range = inpsize - id*range;
-    cout << id << ": range: " << range << endl;
+    //cout << id << ": range: " << range << endl;
+    if (id == 0) cout << "numprocs" << numprocs << endl;
+    MPI_Barrier(MPI_COMM_WORLD);
 
+    MPI_Barrier(MPI_COMM_WORLD);
     root = prefix_sum_local(array, range, id);
+    cout << id << ": " << root <<endl;
     for (int d = 0; d < log2(numprocs); d++){
         int pow1 = pow(2,d);
         int pow2 = pow(2,d+1);
-        if (id % pow1 == id % pow2)
-            cout << id << ": send: " << root << endl;
-        else if (id % pow2 == pow2-1)
-            cout << id << ": reciev: " << root << endl;
+        int dst;
+        float n_num;
+        if (id % pow2 == pow1 - 1 && id != numprocs-1){
+            dst = min(id+pow1, numprocs-1);
+            //cout << id << ":"<<d<<" send to: " << dst << endl;
+            MPI_Send(&root, 1, MPI_INT, dst, 0, MPI_COMM_WORLD);
+            //break;
+        } else if (id % pow2 == pow2-1){
+            //cout << id << ":oo"<<d<<" recieve from: " << id - pow1 << endl;
+            MPI_Recv(&n_num, 1, MPI_INT, id - pow1, 0, MPI_COMM_WORLD, &stat);
+            root = max(n_num, root);
+        } else if (id == numprocs-1 && numprocs % pow2 > pow1 ){
+            //cout << id << ":++"<<d<<" recieve from: " << id - numprocs % pow1 << endl;
+            MPI_Recv(&n_num, 1, MPI_INT, id - numprocs % pow1, 0, MPI_COMM_WORLD, &stat);
+            root = max(n_num, root);
+        }
     }
+
+    array[range-1] = root;
+    cout << id<< "-------------------------------------------------";
 
     //prefix_sum(array[range-1], id, numprocs);
 

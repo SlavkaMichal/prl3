@@ -1,4 +1,4 @@
-from subprocess import Popen, PIPE
+from subprocess import Popen, PIPE, run
 from argparse import ArgumentParser
 import math
 import random
@@ -22,7 +22,7 @@ def main():
 
     altitudes = [random.randint(1, 1024)]
 
-    args = [argv.mpi, '-np', '', argv.executable, '']
+    args = [argv.mpi, '-np', ' ', argv.executable]
     for inputSize in range(1, 31):
         print(f'[Input size] {inputSize}')
         # permutations = itertools.permutations(altitudes)
@@ -35,22 +35,29 @@ def main():
             else:
                 random.shuffle(altitudes)
 
-            args[4] = ','.join(map(str, altitudes))
+            args += map(str, altitudes)
+
             print(f'[Input string] {args[4]}')
-            angles = [-math.inf] + [math.atan((x - altitudes[0]) / float(i))
-                    for i, x in enumerate(altitudes[1:], 1)]
+            angles = [-math.pi] + [math.atan((x - altitudes[0]) / float(i))
+                    for i, x in enumerate(altitudes, 1)]
+            print(angles)
 
             max_prescan = [-math.inf] + list(itertools.accumulate(angles, max))
             max_prescan.pop()
+            print(max_prescan)
             visibilities = ["v" if (angle > max_prev_angle) else "u"
                             for (angle, max_prev_angle) in zip(angles, max_prescan)]
             visibilities[0] = "_"
 
             ref_output = ",".join(visibilities)
+
             for procCount in range(1, inputSize + 1):
                 args[2] = str(procCount)
-                process = Popen(args, stdout=PIPE, stderr=PIPE)
-                output = process.communicate()[0].decode('utf-8').rstrip('\n')
+                for a in args:
+                    print(a, end=' ')
+                process = run(args, stdout=PIPE, stderr=PIPE)
+                output = process.stdout.decode('utf-8').rstrip('\n')
+                print("\noutput:",output)
                 if output != ref_output:
                     print(f"{FAIL}FAIL: {ENDC}{FAIL}{output}{ENDC} != {GREEN}{ref_output}{ENDC}")
                     print(f'[Processor count] {procCount}')

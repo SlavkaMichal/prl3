@@ -6,23 +6,33 @@
 
 using namespace std;
 
+int p = 0; // verbosity level: 0 non, 1 up_sweep, 2 down_sweep
+
 /* sequential implementation of scan
-   arr - array to be
-   */
-inline float scan_seq(float *arr, int range, int id)
+   arr   - input array
+   range - size of the array
+   id    - mpi id of the process
+*/
+inline float up_sweep_seq(float *arr, int range, int id)
 {
     int new_range;
-    if (range == 2){
+    if (range == 2){ // cannot be divided anymore
         arr[1] = max(arr[1], arr[0]);
-    } else if (range > 2) {
+    } else if (range > 2) { // divide array and recursively evaluate
         new_range = pow(2, ceil(log2(range))-1);
         arr[range-1] = max(
-            scan_seq(arr          ,new_range       , id),
+            scan_seq(arr          , new_range      , id),
             scan_seq(arr+new_range, range-new_range, id));
     }
     return arr[range-1];
 }
 
+/* implementation of scan
+   arr   - input array
+   range - size of the array
+   id    - mpi id of the process
+   numprocs - number of process
+*/
 inline float up_sweep(float *arr, int range, int id, int numprocs)
 {
     int pow1;
@@ -33,22 +43,33 @@ inline float up_sweep(float *arr, int range, int id, int numprocs)
     MPI_Status stat;
 
     root = scan_seq(arr, range, id);
-    //cout << id << ": " << root <<endl;
+    if (numprocs == 1)
+        return root;
+
     for (int d = 0; d < log2(numprocs); d++){
-        pow1 = pow(2,d);
-        pow2 = pow(2,d+1);
-        if (id % pow2 == pow1 - 1 && id != numprocs-1){
-            dst = min(id+pow1, numprocs-1);
-            //cout << id << ":"<<d<<" send to: " << dst << endl;
-            MPI_Send(&root, 1, MPI_FLOAT, dst, 0, MPI_COMM_WORLD);
-            //break;
-        } else if (id % pow2 == pow2-1){
-            //cout << id << ":oo"<<d<<" recieve from: " << id - pow1 << endl;
+        pow1 = pow(2,d);   // if proc id is multiple of pow1 then is on the left
+        pow2 = pow(2,d+1); // if proc id is multiple of pow2 then is on the right
+
+        if (p == 1){// log
+            cout << id<<":"<<d << " pow1: " << pow1 << " pow2: " << pow2 << endl;
+            cout << id<<":"<<d  << " right: (id+1 \% pow2 == 0) " << (id+1) % pow2 << "==" << 0 << endl;
+            cout << id<<":"<<d  << " left:  (id+1 \% pow1 == 0) " << (id+1) % pow1 << "==" << 0 << endl;
+        }
+
+        if ((id+1) % pow2 == 0){ // right proc
+            if (p == 1) cout << id << ":Right:"<<d<<" recv from: " << dst << endl;
             MPI_Recv(&n_num, 1, MPI_FLOAT, id - pow1, 0, MPI_COMM_WORLD, &stat);
             root = max(n_num, root);
-        } else if (id == numprocs-1 && numprocs % pow2 > pow1 ){MPI_Recv(&n_num, 1, MPI_FLOAT, id - numprocs % pow1, 0, MPI_COMM_WORLD, &stat);
-            //cout << id << ":++"<<d<<" recieve from: " << id - numprocs % pow1 << endl;
-            //MPI_Recv(&n_num, 1, MPI_FLOAT, id - numprocs % pow1, 0, MPI_COMM_WORLD, &stat);
+            if (p == 1) cout << id << ":Right:"<<d<<" DONE " << endl;
+        } else if ((id+1) % pow1 == 0 && id != numprocs-1){ // left proc
+            dst = min(id+pow1, numprocs-1);
+            if (p == 1) cout << id << ":Left:"<<d<<" send to:   " << dst << endl;
+            MPI_Send(&root, 1, MPI_FLOAT, dst, 0, MPI_COMM_WORLD);
+            if (p == 1) cout << id << ":Left:"<<d<<" DONE " << endl;
+        } else if (id == numprocs-1 && numprocs % pow2 > pow1 ){ // rightmost proc
+            if (p == 1) cout << id << ":+++:"<<d<<" recv from: " << dst << endl;
+            MPI_Recv(&n_num, 1, MPI_FLOAT, id - numprocs % pow1, 0, MPI_COMM_WORLD, &stat);
+            if (p == 1) cout << id << ":+++:"<<d<<" DONE " << endl;
             root = max(n_num, root);
         }
     }
@@ -57,6 +78,11 @@ inline float up_sweep(float *arr, int range, int id, int numprocs)
     return root;
 }
 
+/* seqential implementation of down sweep
+   arr   - input array
+   range - size of the array
+   id    - mpi id of the process
+*/
 inline float down_sweep_seq(float *arr, int range, int id)
 {
     float arr0;
@@ -80,42 +106,90 @@ inline float down_sweep_seq(float *arr, int range, int id)
 
 int main(int argc, char *argv[])
 {
-    int id;
-    int numprocs;
+    int id;         // mpi process id
+    int numprocs;   // number of processes
     int view_point; // first element of the input
     int range;      // numbers per process
-    int inpsize;
-    float *array;      // array of numbers
-
+    int inpsize;    // number of imputs without view position
+    float *array;   // array for results
+    float *angle;   // angles
+    int res;
+    int assigned;   // assigned elements counter
 
     MPI_Init(&argc, &argv);
     MPI_Comm_size(MPI_COMM_WORLD, &numprocs);
     MPI_Comm_rank(MPI_COMM_WORLD, &id);
 
-    view_point = stoi(argv[1]);
-    inpsize = argc - 2; // omitting first element
+    view_point = stoi(argv[1]); // altitude from which we computu visibility
+    inpsize = argc - 2; // omitting view point
+
+    // edge cases
+    if (inpsize <= 1){
+        if (id == 0 && inpsize == 1) cout << "_,v" << endl; // only one altitude always visible
+        if (id == 0 && inpsize == 0) cout << "_" << endl;   // no altitude
+        MPI_Finalize();
+        return 0;
+    }
 
     // number of elements assigned to each process
     range = 1;
     while (range*numprocs < inpsize){
-        range = range*2;
+        range = range*2; // always power of 2
     }
 
     // assign numbers to processes
     array = new float [range]{0};
-    float *angle = new float [range]{0};
+    angle = new float [range]{0};
+    assigned = 0;
     for (int i = id*range; i < id*range+range && i < inpsize; i++){
         array[i%range] = atan2(stoi(argv[i+2]) - view_point, i+1);
         angle[i%range] = array[i%range];
         //cout << id <<": (" <<stoi(argv[i+2])<< "-" << view_point << ")/" << i << "="<<array[i%range]<< endl;
+        assigned++;
     }
+
+    // stop if process if it wont be used
+    if (assigned == 0){
+        MPI_Finalize();
+        return 0;
+    }
+
+    // change the number of processes to used number of processes
+    if (inpsize > numprocs)
+        numprocs = inpsize/range+(inpsize%2);
 
     // change the size of the last array
     if ((id+1)*range > inpsize)
+        // should be equal to assigned
         range = inpsize - id*range;
+
+    // only one cpu
+    if (numprocs == 1){
+        up_sweep_seq(array, range, id); // sequential scan
+        array[range-1] = -3.1416/2; // set last element to minimal value
+        down_sweep_seq(array, range, id); // sequential down-sweep
+        // print result
+        cout << "_";
+        for (int i=0; i < range; i++){
+            if(angle[i] > array[i])
+                cout << ",v";
+            else
+                cout << ",u";
+        }
+        cout << endl;
+
+        delete []array;
+        delete []angle;
+        MPI_Finalize();
+        return 0;
+    }
 
     // up-sweep
     up_sweep(array, range, id, numprocs);
+    if (p == 1){
+        MPI_Finalize();
+        return 0;
+    }
 
     // down-sweep
     if (id == numprocs-1) array[range-1] = -3.1416/2;
@@ -128,72 +202,64 @@ int main(int argc, char *argv[])
 
     root = array[range-1];
     for (int d = log2(numprocs); d >= 0; d--){
-        pow1 = pow(2,d);
-        pow2 = pow(2,d+1);
-        if (id % pow2 == pow1 - 1 && id != numprocs-1){
-            dst = min(id+pow1, numprocs-1);
-            //cout << id << ":l:"<<d<<" send to:   " << dst << endl;
-            MPI_Send(&root, 1, MPI_FLOAT, dst, 0, MPI_COMM_WORLD);
-            //cout << id << ":l:"<<d<<" recv from: " << dst << endl;
-            MPI_Recv(&root, 1, MPI_FLOAT, dst, 0, MPI_COMM_WORLD, &stat);
-            //break;
-        } else if (id % pow2 == pow2-1){
-            //cout << id << ":r:"<<d<<" recv from: " << id - pow1 << endl;
-            MPI_Recv(&n_num, 1, MPI_FLOAT, id - pow1, 0, MPI_COMM_WORLD, &stat);
-            //cout << id << ":r:"<<d<<" send to:   " << id - pow1 << endl;
-            MPI_Send(&root  , 1, MPI_FLOAT, id - pow1, 0, MPI_COMM_WORLD);
+        pow1 = pow(2,d);   // if proc id is multiple of pow1 then is on the left
+        pow2 = pow(2,d+1); // if proc id is multiple of pow2 then is on the right
+        if (p == 2){
+            cout << id<<":"<<d << " pow1: " << pow1 << " pow2: " << pow2 << endl;
+            cout << id<<":"<<d  << " right: (id+1 \% pow2 == 0) " << (id+1) % pow2 << "==" << 0 << endl;
+            cout << id<<":"<<d  << " left:  (id+1 \% pow1 == 0) " << (id+1) % pow1 << "==" << 0 << endl;
+        }
+        if ((id+1) % pow2 == 0){ // right proc
+            dst = id - pow1;
+            if (p == 2) cout << id << ":right:"<<d<<" recv from: " << dst << endl;
+            MPI_Recv(&n_num, 1, MPI_FLOAT, dst, 0, MPI_COMM_WORLD, &stat);
+            if (p == 2) cout << id << ":right:"<<d<<" send to:   " <<  dst << endl;
+            MPI_Send(&root  , 1, MPI_FLOAT,  dst, 0, MPI_COMM_WORLD);
+            if (p == 2) cout << id << ":right:"<<d<<" DONE " << endl;
             root = max(root, n_num);
-        } else if (id == numprocs-1 && numprocs % pow2 > pow1 ){
-            //cout << id << ":+:"<<d<<" recv from: " << id - numprocs % pow1 << endl;
-            MPI_Recv(&n_num, 1, MPI_FLOAT, id - numprocs % pow1, 0, MPI_COMM_WORLD, &stat);
-            //cout << id << ":+:"<<d<<" send to:   " << id - numprocs % pow1 << endl;
-            MPI_Send(&root  , 1, MPI_FLOAT, id - numprocs % pow1, 0, MPI_COMM_WORLD);
+        } else if ((id+1) % pow1 == 0 && id != numprocs-1){ // left proc
+            dst = min(id+pow1, numprocs-1);
+            if (p == 2) cout << id << ":left:"<<d<<" send to:   " << dst << endl;
+            MPI_Send(&root, 1, MPI_FLOAT, dst, 0, MPI_COMM_WORLD);
+            if (p == 2) cout << id << ":left:"<<d<<" recv from: " << dst << endl;
+            MPI_Recv(&root, 1, MPI_FLOAT, dst, 0, MPI_COMM_WORLD, &stat);
+            if (p == 2) cout << id << ":left:"<<d<<" DONE " << endl;
+        } else if (id == numprocs-1 && numprocs % pow2 > pow1 ){ // rightmost proc
+            dst = id - numprocs % pow1;
+            if (p == 2)cout << id << ":+++:"<<d<<" recv from: " << dst << endl;
+            MPI_Recv(&n_num, 1, MPI_FLOAT, dst, 0, MPI_COMM_WORLD, &stat);
+            if (p == 2)cout << id << ":+++:"<<d<<" send to:   " << dst << endl;
+            MPI_Send(&root  , 1, MPI_FLOAT, dst, 0, MPI_COMM_WORLD);
+            if (p == 2)cout << id << ":+++:"<<d<<" DONE " << endl;
             root = max(root, n_num);
         }
     }
     array[range-1] = root;
-    //cout << id << ": " ;
-    //for (int i = 0; i < range; i++)
-    //    cout << array[i] << ", ";
-    //cout << endl;
+
+    // sequential down sweep
     down_sweep_seq(array, range, id);
 
-    MPI_Barrier(MPI_COMM_WORLD);
-    //cout << id << ": ";
-    //for (int i = 0; i < range; i++)
-    //    if (angle[i] > array[i])
-    //        cout << angle[i]<< " > "<<array[i] <<"v, ";
-    //        //cout  <<"v,";
-    //    else
-    //        cout << angle[i]<< " ! "<<array[i] <<"u, ";
-    //        //cout << "u,";
-    //cout << endl;
-
-    //cout << id << "----------------------------------_---------"<< endl;
-    int res;
+    // gather and print results
     if (id == 0){
-        cout  <<"_,";
+        cout  <<"_";
         for (int i = 0; i < inpsize; i++){
-            if (i < range){
+            if (i < range){ // results in 0-th process
                 res = angle[i] > array[i];
-            } else {
-                //cout << id << ":r: "<< i/range << endl;;
+                if (p > 0) cout << id << ": " << angle[i] << " > " << array[i] << endl;
+            } else { // results from other processes
                 MPI_Recv(&res, 1, MPI_INT, i/range, 0, MPI_COMM_WORLD, &stat);
-                //cout << " val: " << res << endl;
             }
 
             if (res)
-                cout  <<"v";
+                cout  <<",v";
             else
-                cout <<"u";
-            if (i != inpsize-1)
-                cout <<",";
+                cout <<",u";
         }
         cout << endl;
-    } else {
+    } else { // send results to 0-th process
         for (int i = 0; i < range; i++){
             res = angle[i] > array[i];
-            //cout << id << ":s: "<< i << " val: " << res << endl;
+            if (p > 0) cout << id << ": " << angle[i] << " > " << array[i] << endl;
             MPI_Send(&res , 1, MPI_INT, 0, 0, MPI_COMM_WORLD);
         }
     }

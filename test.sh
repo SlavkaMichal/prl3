@@ -13,18 +13,16 @@ else
     exit 1
 fi
 
-echo $inp
 
 declare -i proc=$(echo $1 | tr -cd ',' | wc -c)
 proc=$((proc))
-echo "$proc"
-if [[ $proc -gt 25 ]]; then
-    proc=25
+if [[ $proc -gt 20 ]]; then
+    proc=20
 fi
-proc=2
 
 mpicxx -o vid vid.cpp
 
-mpirun --prefix /usr/local/share/OpenMPI -np $proc vid $inp
+#echo "mpirun --prefix /usr/local/share/OpenMPI -np $proc vid $inp"
+echo $(mpirun --prefix /usr/local/share/OpenMPI -np $proc vid $inp)
 
 rm vid

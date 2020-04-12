@@ -21,6 +21,7 @@ echo "$proc"
 if [[ $proc -gt 25 ]]; then
     proc=25
 fi
+proc=2
 
 mpicxx -o vid vid.cpp
 

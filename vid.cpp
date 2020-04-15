@@ -21,8 +21,8 @@ inline float up_sweep_seq(float *arr, int range, int id)
     } else if (range > 2) { // divide array and recursively evaluate
         new_range = pow(2, ceil(log2(range))-1);
         arr[range-1] = max(
-            scan_seq(arr          , new_range      , id),
-            scan_seq(arr+new_range, range-new_range, id));
+            up_sweep_seq(arr          , new_range      , id),
+            up_sweep_seq(arr+new_range, range-new_range, id));
     }
     return arr[range-1];
 }
@@ -42,7 +42,7 @@ inline float up_sweep(float *arr, int range, int id, int numprocs)
     float root;
     MPI_Status stat;
 
-    root = scan_seq(arr, range, id);
+    root = up_sweep_seq(arr, range, id);
     if (numprocs == 1)
         return root;
 
@@ -142,11 +142,13 @@ int main(int argc, char *argv[])
     angle = new float [range]{0};
     assigned = 0;
     for (int i = id*range; i < id*range+range && i < inpsize; i++){
-        array[i%range] = atan2(stoi(argv[i+2]) - view_point, i+1);
+        array[i%range] = atan2((stoi(argv[i+2]) - view_point), (i+1));
         angle[i%range] = array[i%range];
-        //cout << id <<": (" <<stoi(argv[i+2])<< "-" << view_point << ")/" << i << "="<<array[i%range]<< endl;
+        //cout << id <<": atan(" <<stoi(argv[i+2])- view_point  << ")/"<< i+1 << ")" << "="<<array[i%range]<< endl;
         assigned++;
     }
+
+
 
     // stop if process if it wont be used
     if (assigned == 0){

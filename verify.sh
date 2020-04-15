@@ -18,16 +18,48 @@ if [ ! -f "$TEST_FILE" ]; then
   >&2 echo "$TEST_FILE not found!" && exit 1
 fi
 
-while IFS= read -r line; do
-  TOTAL=$((TOTAL+1))
+#while IFS= read -r line
+#do
+#  TOTAL=$((TOTAL+1))
+#
+#  INPUT=$(echo $line | cut -d' ' -f1)
+#  TARGET=$(echo $line | cut -d' ' -f2)
+#
+#  OUTPUT=$(./"$EXECUTABLE" "$INPUT")
+#  echo $OUTPUT
+#  echo $TARGET
+#  if [[ "$OUTPUT" == "$TARGET" ]]
+#  then
+#    echo -e "${GREEN}$TEST_INPUT passed.${NOTCOLORED}" && PASSED=$((PASSED+1))
+#  else
+#    echo -e "${RED}$TEST_INPUT failed!${NOTCOLORED}"
+#  fi
+#
+#done < "$TEST_FILE"
 
-  INPUT=$(echo $line | cut -d' ' -f1)
-  TARGET=$(echo $line | cut -d' ' -f2)
+for x in {1..100}
+do
+    INPLEN=$(($RANDOM%30))
+    INPUT="$((1+$RANDOM%100))"
 
-  OUTPUT=$(./"$EXECUTABLE" "$INPUT")
-  echo $OUTPUT
-  diff "$OUTPUT" "$TARGET" &>/dev/null && [ $? -eq 0 ] && echo -e "${GREEN}$TEST_INPUT passed.${NOTCOLORED}" && PASSED=$((PASSED+1)) || echo -e "${RED}$TEST_INPUT failed!${NOTCOLORED}"
+    for n in $(eval echo "{1..$INPLEN}")
+    do
+        INPUT="$INPUT,$((1+$RANDOM%(10*n+1)))"
+    done
 
-done < "$TEST_FILE"
+    echo "INPLEN: $INPLEN"
+    echo "INPUT:  $INPUT"
+    TARGET=$(python3 vid.py -i "$INPUT")
+    OUTPUT=$(./"$EXECUTABLE" "$INPUT")
+    echo "OUTPUT $OUTPUT"
+    echo "TARGET $TARGET"
+
+    if [[ "$OUTPUT" == "$TARGET" ]]
+    then
+      echo -e "${GREEN}$TEST_INPUT passed.${NOTCOLORED}" && PASSED=$((PASSED+1))
+    else
+      echo -e "${RED}$TEST_INPUT failed!${NOTCOLORED}"
+    fi
+done
 
 echo -e "$PASSED/$TOTAL tests passed!"

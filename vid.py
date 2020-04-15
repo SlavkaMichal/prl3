@@ -12,27 +12,39 @@ BOLD = '\033[1m'
 
 def main():
     parser = ArgumentParser()
-    parser.add_argument('integers', metavar='N', type=int, nargs='+')
+    parser.add_argument('integers', metavar='N', type=int, nargs='*')
+    parser.add_argument('-i', '--input',dest='input', type=str)
 
     argv = parser.parse_args()
 
-    altitudes = argv.integers
+    if argv.integers == [] and argv.input != None:
+        #print(argv.input)
+        #print(argv.input.split(','))
+
+        altitudes = list(map(int, argv.input.split(',')))
+    elif argv.integers != []:
+        altitudes = argv.integers
+    else:
+        print("No arguments passed!")
+        return
+
+
 
     angles = [math.atan((x - altitudes[0]) / float(i))
-            for i, x in enumerate(altitudes, 1)]
-    print("angles")
-    for a in angles:
-        print(a)
+            for i, x in enumerate(altitudes[1:], 1)]
+    #print("angles")
+    #for a in angles:
+    #    print(a)
 
-    max_prescan = [-math.pi] + list(itertools.accumulate(angles[1:], max))
+    max_prescan = [-math.pi] + list(itertools.accumulate(angles, max))
     max_prescan.pop()
-    print("prescan")
-    for a in max_prescan:
-        print(a)
+    #print("prescan")
+    #for a in max_prescan:
+    #    print(a)
     visibilities = ["v" if (angle > max_prev_angle) else "u"
-                    for (angle, max_prev_angle) in zip(angles[1:], max_prescan)]
+                    for (angle, max_prev_angle) in zip(angles, max_prescan)]
 
-    ref_output = ",".join(visibilities)
+    ref_output = "_,"+",".join(visibilities)
     print(ref_output)
 
 

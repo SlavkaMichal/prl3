@@ -23,6 +23,7 @@ fi
 mpicxx -o vid vid.cpp
 
 #echo "mpirun --prefix /usr/local/share/OpenMPI -np $proc vid $inp"
-echo $(mpirun --prefix /usr/local/share/OpenMPI -np $proc vid $inp)
+#echo $(mpirun --prefix /usr/local/share/OpenMPI -np $proc vid $inp < /dev/null )
+mpirun --prefix /usr/local/share/OpenMPI -np $proc vid $inp < /dev/null
 
 rm vid

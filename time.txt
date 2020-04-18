@@ -1,0 +1,1160 @@
+OUTPUT _,v,u
+inpsize:2	time:	0.00159597
+OUTPUT _,v,u
+inpsize:2	time:	0.0022099
+OUTPUT _,v,u
+inpsize:2	time:	0.00176096
+OUTPUT _,v,u
+inpsize:2	time:	0.00215578
+OUTPUT _,v,u
+inpsize:2	time:	0.00170112
+OUTPUT _,v,u
+inpsize:2	time:	0.00130486
+OUTPUT _,v,u
+inpsize:2	time:	0.0017519
+OUTPUT _,v,u
+inpsize:2	time:	0.00225997
+OUTPUT _,v,u
+inpsize:2	time:	0.00219512
+OUTPUT _,v,u
+inpsize:2	time:	0.00219011
+OUTPUT _,v,u
+inpsize:2	time:	0.00171804
+OUTPUT _,v,u
+inpsize:2	time:	0.00131893
+OUTPUT _,v,u
+inpsize:2	time:	0.00229502
+OUTPUT _,v,u
+inpsize:2	time:	0.00174594
+OUTPUT _,v,u
+inpsize:2	time:	0.00150609
+OUTPUT _,v,u
+inpsize:2	time:	0.00156307
+OUTPUT _,v,u
+inpsize:2	time:	0.00168109
+OUTPUT _,v,u
+inpsize:2	time:	0.00128388
+OUTPUT _,v,u
+inpsize:2	time:	0.00170183
+OUTPUT _,v,u
+inpsize:2	time:	0.00151896
+OUTPUT _,v,v,v
+inpsize:3	time:	0.00176001
+OUTPUT _,v,v,v
+inpsize:3	time:	0.00229812
+OUTPUT _,v,v,v
+inpsize:3	time:	0.00245118
+OUTPUT _,v,v,v
+inpsize:3	time:	0.00245786
+OUTPUT _,v,v,v
+inpsize:3	time:	0.00191712
+OUTPUT _,v,v,v
+inpsize:3	time:	0.00185823
+OUTPUT _,v,v,v
+inpsize:3	time:	0.00268292
+OUTPUT _,v,v,v
+inpsize:3	time:	0.00212002
+OUTPUT _,v,v,v
+inpsize:3	time:	0.00239682
+OUTPUT _,v,v,v
+inpsize:3	time:	0.00179505
+OUTPUT _,v,v,v
+inpsize:3	time:	0.001827
+OUTPUT _,v,v,v
+inpsize:3	time:	0.00187111
+OUTPUT _,v,v,v
+inpsize:3	time:	0.00165987
+OUTPUT _,v,v,v
+inpsize:3	time:	0.00530791
+OUTPUT _,v,v,v
+inpsize:3	time:	0.00190401
+OUTPUT _,v,v,v
+inpsize:3	time:	0.00159216
+OUTPUT _,v,v,v
+inpsize:3	time:	0.00188303
+OUTPUT _,v,v,v
+inpsize:3	time:	0.00174499
+OUTPUT _,v,v,v
+inpsize:3	time:	0.00180292
+OUTPUT _,v,v,v
+inpsize:3	time:	0.00226092
+OUTPUT _,v,v,v,v
+inpsize:4	time:	0.00157499
+OUTPUT _,v,v,v,v
+inpsize:4	time:	0.00235009
+OUTPUT _,v,v,v,v
+inpsize:4	time:	0.00233698
+OUTPUT _,v,v,v,v
+inpsize:4	time:	0.00172591
+OUTPUT _,v,v,v,v
+inpsize:4	time:	0.00213885
+OUTPUT _,v,v,v,v
+inpsize:4	time:	0.00183105
+OUTPUT _,v,v,v,v
+inpsize:4	time:	0.00208592
+OUTPUT _,v,v,v,v
+inpsize:4	time:	0.00162792
+OUTPUT _,v,v,v,v
+inpsize:4	time:	0.00210595
+OUTPUT _,v,v,v,v
+inpsize:4	time:	0.00170016
+OUTPUT _,v,v,v,v
+inpsize:4	time:	0.00201106
+OUTPUT _,v,v,v,v
+inpsize:4	time:	0.00196409
+OUTPUT _,v,v,v,v
+inpsize:4	time:	0.00283217
+OUTPUT _,v,v,v,v
+inpsize:4	time:	0.00163984
+OUTPUT _,v,v,v,v
+inpsize:4	time:	0.00235295
+OUTPUT _,v,v,v,v
+inpsize:4	time:	0.00250912
+OUTPUT _,v,v,v,v
+inpsize:4	time:	0.00229192
+OUTPUT _,v,v,v,v
+inpsize:4	time:	0.00197792
+OUTPUT _,v,v,v,v
+inpsize:4	time:	0.00173688
+OUTPUT _,v,v,v,v
+inpsize:4	time:	0.00195289
+OUTPUT _,v,v,v,u,u
+inpsize:5	time:	0.00236392
+OUTPUT _,v,v,v,u,u
+inpsize:5	time:	0.00235796
+OUTPUT _,v,v,v,u,u
+inpsize:5	time:	0.002074
+OUTPUT _,v,v,v,u,u
+inpsize:5	time:	0.00262189
+OUTPUT _,v,v,v,u,u
+inpsize:5	time:	0.00217986
+OUTPUT _,v,v,v,u,u
+inpsize:5	time:	0.0062499
+OUTPUT _,v,v,v,u,u
+inpsize:5	time:	0.00214291
+OUTPUT _,v,v,v,u,u
+inpsize:5	time:	0.00226903
+OUTPUT _,v,v,v,u,u
+inpsize:5	time:	0.00225806
+OUTPUT _,v,v,v,u,u
+inpsize:5	time:	0.00221109
+OUTPUT _,v,v,v,u,u
+inpsize:5	time:	0.0022049
+OUTPUT _,v,v,v,u,u
+inpsize:5	time:	0.00208902
+OUTPUT _,v,v,v,u,u
+inpsize:5	time:	0.00223899
+OUTPUT _,v,v,v,u,u
+inpsize:5	time:	0.00213385
+OUTPUT _,v,v,v,u,u
+inpsize:5	time:	0.00221896
+OUTPUT _,v,v,v,u,u
+inpsize:5	time:	0.00213909
+OUTPUT _,v,v,v,u,u
+inpsize:5	time:	0.00211215
+OUTPUT _,v,v,v,u,u
+inpsize:5	time:	0.00200009
+OUTPUT _,v,v,v,u,u
+inpsize:5	time:	0.00200319
+OUTPUT _,v,v,v,u,u
+inpsize:5	time:	0.00241303
+OUTPUT _,v,v,v,v,v,v
+inpsize:6	time:	0.00370193
+OUTPUT _,v,v,v,v,v,v
+inpsize:6	time:	0.003901
+OUTPUT _,v,v,v,v,v,v
+inpsize:6	time:	0.00245214
+OUTPUT _,v,v,v,v,v,v
+inpsize:6	time:	0.00403309
+OUTPUT _,v,v,v,v,v,v
+inpsize:6	time:	0.00279212
+OUTPUT _,v,v,v,v,v,v
+inpsize:6	time:	0.00241685
+OUTPUT _,v,v,v,v,v,v
+inpsize:6	time:	0.002105
+OUTPUT _,v,v,v,v,v,v
+inpsize:6	time:	0.00853801
+OUTPUT _,v,v,v,v,v,v
+inpsize:6	time:	0.00221205
+OUTPUT _,v,v,v,v,v,v
+inpsize:6	time:	0.0055871
+OUTPUT _,v,v,v,v,v,v
+inpsize:6	time:	0.00214195
+OUTPUT _,v,v,v,v,v,v
+inpsize:6	time:	0.00233293
+OUTPUT _,v,v,v,v,v,v
+inpsize:6	time:	0.00211406
+OUTPUT _,v,v,v,v,v,v
+inpsize:6	time:	0.002702
+OUTPUT _,v,v,v,v,v,v
+inpsize:6	time:	0.00294805
+OUTPUT _,v,v,v,v,v,v
+inpsize:6	time:	0.00238991
+OUTPUT _,v,v,v,v,v,v
+inpsize:6	time:	0.00263882
+OUTPUT _,v,v,v,v,v,v
+inpsize:6	time:	0.00223708
+OUTPUT _,v,v,v,v,v,v
+inpsize:6	time:	0.00237417
+OUTPUT _,v,v,v,v,v,v
+inpsize:6	time:	0.00265002
+OUTPUT _,v,v,v,v,v,u,v
+inpsize:7	time:	0.00296688
+OUTPUT _,v,v,v,v,v,u,v
+inpsize:7	time:	0.00270796
+OUTPUT _,v,v,v,v,v,u,v
+inpsize:7	time:	0.00435615
+OUTPUT _,v,v,v,v,v,u,v
+inpsize:7	time:	0.00271297
+OUTPUT _,v,v,v,v,v,u,v
+inpsize:7	time:	0.00256181
+OUTPUT _,v,v,v,v,v,u,v
+inpsize:7	time:	0.00254321
+OUTPUT _,v,v,v,v,v,u,v
+inpsize:7	time:	0.00661707
+OUTPUT _,v,v,v,v,v,u,v
+inpsize:7	time:	0.00336003
+OUTPUT _,v,v,v,v,v,u,v
+inpsize:7	time:	0.00300193
+OUTPUT _,v,v,v,v,v,u,v
+inpsize:7	time:	0.0038259
+OUTPUT _,v,v,v,v,v,u,v
+inpsize:7	time:	0.00263691
+OUTPUT _,v,v,v,v,v,u,v
+inpsize:7	time:	0.00441694
+OUTPUT _,v,v,v,v,v,u,v
+inpsize:7	time:	0.00266504
+OUTPUT _,v,v,v,v,v,u,v
+inpsize:7	time:	0.00245094
+OUTPUT _,v,v,v,v,v,u,v
+inpsize:7	time:	0.00303197
+OUTPUT _,v,v,v,v,v,u,v
+inpsize:7	time:	0.00298405
+OUTPUT _,v,v,v,v,v,u,v
+inpsize:7	time:	0.0037179
+OUTPUT _,v,v,v,v,v,u,v
+inpsize:7	time:	0.00650907
+OUTPUT _,v,v,v,v,v,u,v
+inpsize:7	time:	0.00449514
+OUTPUT _,v,v,v,v,v,u,v
+inpsize:7	time:	0.00272894
+OUTPUT _,v,v,v,u,v,u,u,u
+inpsize:8	time:	0.00431108
+OUTPUT _,v,v,v,u,v,u,u,u
+inpsize:8	time:	0.00755596
+OUTPUT _,v,v,v,u,v,u,u,u
+inpsize:8	time:	0.0100288
+OUTPUT _,v,v,v,u,v,u,u,u
+inpsize:8	time:	0.00742507
+OUTPUT _,v,v,v,u,v,u,u,u
+inpsize:8	time:	0.00243497
+OUTPUT _,v,v,v,u,v,u,u,u
+inpsize:8	time:	0.00495601
+OUTPUT _,v,v,v,u,v,u,u,u
+inpsize:8	time:	0.00458598
+OUTPUT _,v,v,v,u,v,u,u,u
+inpsize:8	time:	0.003016
+OUTPUT _,v,v,v,u,v,u,u,u
+inpsize:8	time:	0.00256896
+OUTPUT _,v,v,v,u,v,u,u,u
+inpsize:8	time:	0.00239801
+OUTPUT _,v,v,v,u,v,u,u,u
+inpsize:8	time:	0.0025599
+OUTPUT _,v,v,v,u,v,u,u,u
+inpsize:8	time:	0.00244784
+OUTPUT _,v,v,v,u,v,u,u,u
+inpsize:8	time:	0.00245595
+OUTPUT _,v,v,v,u,v,u,u,u
+inpsize:8	time:	0.00282407
+OUTPUT _,v,v,v,u,v,u,u,u
+inpsize:8	time:	0.00250506
+OUTPUT _,v,v,v,u,v,u,u,u
+inpsize:8	time:	0.00308418
+OUTPUT _,v,v,v,u,v,u,u,u
+inpsize:8	time:	0.00243592
+OUTPUT _,v,v,v,u,v,u,u,u
+inpsize:8	time:	0.0030601
+OUTPUT _,v,v,v,u,v,u,u,u
+inpsize:8	time:	0.00240493
+OUTPUT _,v,v,v,u,v,u,u,u
+inpsize:8	time:	0.00415301
+OUTPUT _,v,v,v,v,v,u,v,v,v
+inpsize:9	time:	0.00298905
+OUTPUT _,v,v,v,v,v,u,v,v,v
+inpsize:9	time:	0.00243115
+OUTPUT _,v,v,v,v,v,u,v,v,v
+inpsize:9	time:	0.0107279
+OUTPUT _,v,v,v,v,v,u,v,v,v
+inpsize:9	time:	0.00335717
+OUTPUT _,v,v,v,v,v,u,v,v,v
+inpsize:9	time:	0.00545692
+OUTPUT _,v,v,v,v,v,u,v,v,v
+inpsize:9	time:	0.00541902
+OUTPUT _,v,v,v,v,v,u,v,v,v
+inpsize:9	time:	0.00273108
+OUTPUT _,v,v,v,v,v,u,v,v,v
+inpsize:9	time:	0.00363088
+OUTPUT _,v,v,v,v,v,u,v,v,v
+inpsize:9	time:	0.00584292
+OUTPUT _,v,v,v,v,v,u,v,v,v
+inpsize:9	time:	0.00460196
+OUTPUT _,v,v,v,v,v,u,v,v,v
+inpsize:9	time:	0.00296617
+OUTPUT _,v,v,v,v,v,u,v,v,v
+inpsize:9	time:	0.00467086
+OUTPUT _,v,v,v,v,v,u,v,v,v
+inpsize:9	time:	0.00474501
+OUTPUT _,v,v,v,v,v,u,v,v,v
+inpsize:9	time:	0.00449991
+OUTPUT _,v,v,v,v,v,u,v,v,v
+inpsize:9	time:	0.0030241
+OUTPUT _,v,v,v,v,v,u,v,v,v
+inpsize:9	time:	0.00315809
+OUTPUT _,v,v,v,v,v,u,v,v,v
+inpsize:9	time:	0.00546002
+OUTPUT _,v,v,v,v,v,u,v,v,v
+inpsize:9	time:	0.00255394
+OUTPUT _,v,v,v,v,v,u,v,v,v
+inpsize:9	time:	0.00524497
+OUTPUT _,v,v,v,v,v,u,v,v,v
+inpsize:9	time:	0.00443792
+OUTPUT _,v,v,v,v,v,v,v,u,u,u
+inpsize:10	time:	0.00380802
+OUTPUT _,v,v,v,v,v,v,v,u,u,u
+inpsize:10	time:	0.00673389
+OUTPUT _,v,v,v,v,v,v,v,u,u,u
+inpsize:10	time:	0.00313377
+OUTPUT _,v,v,v,v,v,v,v,u,u,u
+inpsize:10	time:	0.00615287
+OUTPUT _,v,v,v,v,v,v,v,u,u,u
+inpsize:10	time:	0.00301099
+OUTPUT _,v,v,v,v,v,v,v,u,u,u
+inpsize:10	time:	0.00251293
+OUTPUT _,v,v,v,v,v,v,v,u,u,u
+inpsize:10	time:	0.00299907
+OUTPUT _,v,v,v,v,v,v,v,u,u,u
+inpsize:10	time:	0.00469804
+OUTPUT _,v,v,v,v,v,v,v,u,u,u
+inpsize:10	time:	0.00334001
+OUTPUT _,v,v,v,v,v,v,v,u,u,u
+inpsize:10	time:	0.00534105
+OUTPUT _,v,v,v,v,v,v,v,u,u,u
+inpsize:10	time:	0.00436497
+OUTPUT _,v,v,v,v,v,v,v,u,u,u
+inpsize:10	time:	0.00439095
+OUTPUT _,v,v,v,v,v,v,v,u,u,u
+inpsize:10	time:	0.00418901
+OUTPUT _,v,v,v,v,v,v,v,u,u,u
+inpsize:10	time:	0.00302196
+OUTPUT _,v,v,v,v,v,v,v,u,u,u
+inpsize:10	time:	0.00281692
+OUTPUT _,v,v,v,v,v,v,v,u,u,u
+inpsize:10	time:	0.00332212
+OUTPUT _,v,v,v,v,v,v,v,u,u,u
+inpsize:10	time:	0.00380397
+OUTPUT _,v,v,v,v,v,v,v,u,u,u
+inpsize:10	time:	0.00287294
+OUTPUT _,v,v,v,v,v,v,v,u,u,u
+inpsize:10	time:	0.00250316
+OUTPUT _,v,v,v,v,v,v,v,u,u,u
+inpsize:10	time:	0.00259995
+OUTPUT _,v,v,v,u,u,v,v,u,v,u,u
+inpsize:11	time:	0.00255299
+OUTPUT _,v,v,v,u,u,v,v,u,v,u,u
+inpsize:11	time:	0.00335193
+OUTPUT _,v,v,v,u,u,v,v,u,v,u,u
+inpsize:11	time:	0.00314593
+OUTPUT _,v,v,v,u,u,v,v,u,v,u,u
+inpsize:11	time:	0.00448298
+OUTPUT _,v,v,v,u,u,v,v,u,v,u,u
+inpsize:11	time:	0.00431299
+OUTPUT _,v,v,v,u,u,v,v,u,v,u,u
+inpsize:11	time:	0.00445795
+OUTPUT _,v,v,v,u,u,v,v,u,v,u,u
+inpsize:11	time:	0.00394511
+OUTPUT _,v,v,v,u,u,v,v,u,v,u,u
+inpsize:11	time:	0.00303507
+OUTPUT _,v,v,v,u,u,v,v,u,v,u,u
+inpsize:11	time:	0.003335
+OUTPUT _,v,v,v,u,u,v,v,u,v,u,u
+inpsize:11	time:	0.007622
+OUTPUT _,v,v,v,u,u,v,v,u,v,u,u
+inpsize:11	time:	0.00346303
+OUTPUT _,v,v,v,u,u,v,v,u,v,u,u
+inpsize:11	time:	0.00285602
+OUTPUT _,v,v,v,u,u,v,v,u,v,u,u
+inpsize:11	time:	0.00405598
+OUTPUT _,v,v,v,u,u,v,v,u,v,u,u
+inpsize:11	time:	0.0127301
+OUTPUT _,v,v,v,u,u,v,v,u,v,u,u
+inpsize:11	time:	0.00655603
+OUTPUT _,v,v,v,u,u,v,v,u,v,u,u
+inpsize:11	time:	0.00307703
+OUTPUT _,v,v,v,u,u,v,v,u,v,u,u
+inpsize:11	time:	0.00421095
+OUTPUT _,v,v,v,u,u,v,v,u,v,u,u
+inpsize:11	time:	0.00424099
+OUTPUT _,v,v,v,u,u,v,v,u,v,u,u
+inpsize:11	time:	0.00304604
+OUTPUT _,v,v,v,u,u,v,v,u,v,u,u
+inpsize:11	time:	0.00636697
+OUTPUT _,v,v,v,v,v,v,v,u,u,u,u,u
+inpsize:12	time:	0.00255609
+OUTPUT _,v,v,v,v,v,v,v,u,u,u,u,u
+inpsize:12	time:	0.0047121
+OUTPUT _,v,v,v,v,v,v,v,u,u,u,u,u
+inpsize:12	time:	0.00277996
+OUTPUT _,v,v,v,v,v,v,v,u,u,u,u,u
+inpsize:12	time:	0.00421691
+OUTPUT _,v,v,v,v,v,v,v,u,u,u,u,u
+inpsize:12	time:	0.00322294
+OUTPUT _,v,v,v,v,v,v,v,u,u,u,u,u
+inpsize:12	time:	0.00303793
+OUTPUT _,v,v,v,v,v,v,v,u,u,u,u,u
+inpsize:12	time:	0.00351715
+OUTPUT _,v,v,v,v,v,v,v,u,u,u,u,u
+inpsize:12	time:	0.00314307
+OUTPUT _,v,v,v,v,v,v,v,u,u,u,u,u
+inpsize:12	time:	0.003021
+OUTPUT _,v,v,v,v,v,v,v,u,u,u,u,u
+inpsize:12	time:	0.003304
+OUTPUT _,v,v,v,v,v,v,v,u,u,u,u,u
+inpsize:12	time:	0.0030601
+OUTPUT _,v,v,v,v,v,v,v,u,u,u,u,u
+inpsize:12	time:	0.00525308
+OUTPUT _,v,v,v,v,v,v,v,u,u,u,u,u
+inpsize:12	time:	0.00592494
+OUTPUT _,v,v,v,v,v,v,v,u,u,u,u,u
+inpsize:12	time:	0.00517297
+OUTPUT _,v,v,v,v,v,v,v,u,u,u,u,u
+inpsize:12	time:	0.00346708
+OUTPUT _,v,v,v,v,v,v,v,u,u,u,u,u
+inpsize:12	time:	0.00307894
+OUTPUT _,v,v,v,v,v,v,v,u,u,u,u,u
+inpsize:12	time:	0.00293803
+OUTPUT _,v,v,v,v,v,v,v,u,u,u,u,u
+inpsize:12	time:	0.00293517
+OUTPUT _,v,v,v,v,v,v,v,u,u,u,u,u
+inpsize:12	time:	0.00738502
+OUTPUT _,v,v,v,v,v,v,v,u,u,u,u,u
+inpsize:12	time:	0.00333309
+OUTPUT _,v,v,v,v,v,v,v,u,v,u,u,u,v
+inpsize:13	time:	0.00362778
+OUTPUT _,v,v,v,v,v,v,v,u,v,u,u,u,v
+inpsize:13	time:	0.00344205
+OUTPUT _,v,v,v,v,v,v,v,u,v,u,u,u,v
+inpsize:13	time:	0.00528717
+OUTPUT _,v,v,v,v,v,v,v,u,v,u,u,u,v
+inpsize:13	time:	0.00606585
+OUTPUT _,v,v,v,v,v,v,v,u,v,u,u,u,v
+inpsize:13	time:	0.0108719
+OUTPUT _,v,v,v,v,v,v,v,u,v,u,u,u,v
+inpsize:13	time:	0.0040791
+OUTPUT _,v,v,v,v,v,v,v,u,v,u,u,u,v
+inpsize:13	time:	0.00485992
+OUTPUT _,v,v,v,v,v,v,v,u,v,u,u,u,v
+inpsize:13	time:	0.00939822
+OUTPUT _,v,v,v,v,v,v,v,u,v,u,u,u,v
+inpsize:13	time:	0.00386596
+OUTPUT _,v,v,v,v,v,v,v,u,v,u,u,u,v
+inpsize:13	time:	0.00295806
+OUTPUT _,v,v,v,v,v,v,v,u,v,u,u,u,v
+inpsize:13	time:	0.00511909
+OUTPUT _,v,v,v,v,v,v,v,u,v,u,u,u,v
+inpsize:13	time:	0.00483084
+OUTPUT _,v,v,v,v,v,v,v,u,v,u,u,u,v
+inpsize:13	time:	0.00613403
+OUTPUT _,v,v,v,v,v,v,v,u,v,u,u,u,v
+inpsize:13	time:	0.00301886
+OUTPUT _,v,v,v,v,v,v,v,u,v,u,u,u,v
+inpsize:13	time:	0.00620985
+OUTPUT _,v,v,v,v,v,v,v,u,v,u,u,u,v
+inpsize:13	time:	0.00475597
+OUTPUT _,v,v,v,v,v,v,v,u,v,u,u,u,v
+inpsize:13	time:	0.00492692
+OUTPUT _,v,v,v,v,v,v,v,u,v,u,u,u,v
+inpsize:13	time:	0.00573897
+OUTPUT _,v,v,v,v,v,v,v,u,v,u,u,u,v
+inpsize:13	time:	0.00324392
+OUTPUT _,v,v,v,v,v,v,v,u,v,u,u,u,v
+inpsize:13	time:	0.00551701
+OUTPUT _,v,v,v,v,v,u,v,v,v,u,u,u,u,u
+inpsize:14	time:	0.00421381
+OUTPUT _,v,v,v,v,v,u,v,v,v,u,u,u,u,u
+inpsize:14	time:	0.00735497
+OUTPUT _,v,v,v,v,v,u,v,v,v,u,u,u,u,u
+inpsize:14	time:	0.00552106
+OUTPUT _,v,v,v,v,v,u,v,v,v,u,u,u,u,u
+inpsize:14	time:	0.00798512
+OUTPUT _,v,v,v,v,v,u,v,v,v,u,u,u,u,u
+inpsize:14	time:	0.00977397
+OUTPUT _,v,v,v,v,v,u,v,v,v,u,u,u,u,u
+inpsize:14	time:	0.00365996
+OUTPUT _,v,v,v,v,v,u,v,v,v,u,u,u,u,u
+inpsize:14	time:	0.00343513
+OUTPUT _,v,v,v,v,v,u,v,v,v,u,u,u,u,u
+inpsize:14	time:	0.00333285
+OUTPUT _,v,v,v,v,v,u,v,v,v,u,u,u,u,u
+inpsize:14	time:	0.00569892
+OUTPUT _,v,v,v,v,v,u,v,v,v,u,u,u,u,u
+inpsize:14	time:	0.00539088
+OUTPUT _,v,v,v,v,v,u,v,v,v,u,u,u,u,u
+inpsize:14	time:	0.00383687
+OUTPUT _,v,v,v,v,v,u,v,v,v,u,u,u,u,u
+inpsize:14	time:	0.00535488
+OUTPUT _,v,v,v,v,v,u,v,v,v,u,u,u,u,u
+inpsize:14	time:	0.00522304
+OUTPUT _,v,v,v,v,v,u,v,v,v,u,u,u,u,u
+inpsize:14	time:	0.00678992
+OUTPUT _,v,v,v,v,v,u,v,v,v,u,u,u,u,u
+inpsize:14	time:	0.00460219
+OUTPUT _,v,v,v,v,v,u,v,v,v,u,u,u,u,u
+inpsize:14	time:	0.00428391
+OUTPUT _,v,v,v,v,v,u,v,v,v,u,u,u,u,u
+inpsize:14	time:	0.00332308
+OUTPUT _,v,v,v,v,v,u,v,v,v,u,u,u,u,u
+inpsize:14	time:	0.00361109
+OUTPUT _,v,v,v,v,v,u,v,v,v,u,u,u,u,u
+inpsize:14	time:	0.0035069
+OUTPUT _,v,v,v,v,v,u,v,v,v,u,u,u,u,u
+inpsize:14	time:	0.00349593
+OUTPUT _,v,u,v,v,u,u,u,u,v,v,v,u,u,u,u
+inpsize:15	time:	0.00584793
+OUTPUT _,v,u,v,v,u,u,u,u,v,v,v,u,u,u,u
+inpsize:15	time:	0.0186958
+OUTPUT _,v,u,v,v,u,u,u,u,v,v,v,u,u,u,u
+inpsize:15	time:	0.00587916
+OUTPUT _,v,u,v,v,u,u,u,u,v,v,v,u,u,u,u
+inpsize:15	time:	0.00913191
+OUTPUT _,v,u,v,v,u,u,u,u,v,v,v,u,u,u,u
+inpsize:15	time:	0.0128639
+OUTPUT _,v,u,v,v,u,u,u,u,v,v,v,u,u,u,u
+inpsize:15	time:	0.00591612
+OUTPUT _,v,u,v,v,u,u,u,u,v,v,v,u,u,u,u
+inpsize:15	time:	0.0053339
+OUTPUT _,v,u,v,v,u,u,u,u,v,v,v,u,u,u,u
+inpsize:15	time:	0.00770783
+OUTPUT _,v,u,v,v,u,u,u,u,v,v,v,u,u,u,u
+inpsize:15	time:	0.00624681
+OUTPUT _,v,u,v,v,u,u,u,u,v,v,v,u,u,u,u
+inpsize:15	time:	0.00735593
+OUTPUT _,v,u,v,v,u,u,u,u,v,v,v,u,u,u,u
+inpsize:15	time:	0.00589204
+OUTPUT _,v,u,v,v,u,u,u,u,v,v,v,u,u,u,u
+inpsize:15	time:	0.00500298
+OUTPUT _,v,u,v,v,u,u,u,u,v,v,v,u,u,u,u
+inpsize:15	time:	0.01034
+OUTPUT _,v,u,v,v,u,u,u,u,v,v,v,u,u,u,u
+inpsize:15	time:	0.0038569
+OUTPUT _,v,u,v,v,u,u,u,u,v,v,v,u,u,u,u
+inpsize:15	time:	0.00964093
+OUTPUT _,v,u,v,v,u,u,u,u,v,v,v,u,u,u,u
+inpsize:15	time:	0.00446296
+OUTPUT _,v,u,v,v,u,u,u,u,v,v,v,u,u,u,u
+inpsize:15	time:	0.00379896
+OUTPUT _,v,u,v,v,u,u,u,u,v,v,v,u,u,u,u
+inpsize:15	time:	0.00333095
+OUTPUT _,v,u,v,v,u,u,u,u,v,v,v,u,u,u,u
+inpsize:15	time:	0.00298405
+OUTPUT _,v,u,v,v,u,u,u,u,v,v,v,u,u,u,u
+inpsize:15	time:	0.00862408
+OUTPUT _,v,v,v,u,u,v,v,u,u,v,u,u,u,u,u,v
+inpsize:16	time:	0.00763106
+OUTPUT _,v,v,v,u,u,v,v,u,u,v,u,u,u,u,u,v
+inpsize:16	time:	0.005584
+OUTPUT _,v,v,v,u,u,v,v,u,u,v,u,u,u,u,u,v
+inpsize:16	time:	0.00605989
+OUTPUT _,v,v,v,u,u,v,v,u,u,v,u,u,u,u,u,v
+inpsize:16	time:	0.00890994
+OUTPUT _,v,v,v,u,u,v,v,u,u,v,u,u,u,u,u,v
+inpsize:16	time:	0.0120831
+OUTPUT _,v,v,v,u,u,v,v,u,u,v,u,u,u,u,u,v
+inpsize:16	time:	0.00803399
+OUTPUT _,v,v,v,u,u,v,v,u,u,v,u,u,u,u,u,v
+inpsize:16	time:	0.00878716
+OUTPUT _,v,v,v,u,u,v,v,u,u,v,u,u,u,u,u,v
+inpsize:16	time:	0.00859189
+OUTPUT _,v,v,v,u,u,v,v,u,u,v,u,u,u,u,u,v
+inpsize:16	time:	0.00935507
+OUTPUT _,v,v,v,u,u,v,v,u,u,v,u,u,u,u,u,v
+inpsize:16	time:	0.00398207
+OUTPUT _,v,v,v,u,u,v,v,u,u,v,u,u,u,u,u,v
+inpsize:16	time:	0.00805283
+OUTPUT _,v,v,v,u,u,v,v,u,u,v,u,u,u,u,u,v
+inpsize:16	time:	0.00671721
+OUTPUT _,v,v,v,u,u,v,v,u,u,v,u,u,u,u,u,v
+inpsize:16	time:	0.0107808
+OUTPUT _,v,v,v,u,u,v,v,u,u,v,u,u,u,u,u,v
+inpsize:16	time:	0.00937295
+OUTPUT _,v,v,v,u,u,v,v,u,u,v,u,u,u,u,u,v
+inpsize:16	time:	0.00552106
+OUTPUT _,v,v,v,u,u,v,v,u,u,v,u,u,u,u,u,v
+inpsize:16	time:	0.00947404
+OUTPUT _,v,v,v,u,u,v,v,u,u,v,u,u,u,u,u,v
+inpsize:16	time:	0.0068779
+OUTPUT _,v,v,v,u,u,v,v,u,u,v,u,u,u,u,u,v
+inpsize:16	time:	0.00559497
+OUTPUT _,v,v,v,u,u,v,v,u,u,v,u,u,u,u,u,v
+inpsize:16	time:	0.0104041
+OUTPUT _,v,v,v,u,u,v,v,u,u,v,u,u,u,u,u,v
+inpsize:16	time:	0.00909591
+OUTPUT _,v,v,v,v,u,u,u,u,u,v,u,u,v,v,u,u,v
+inpsize:17	time:	0.00621581
+OUTPUT _,v,v,v,v,u,u,u,u,u,v,u,u,v,v,u,u,v
+inpsize:17	time:	0.0204561
+OUTPUT _,v,v,v,v,u,u,u,u,u,v,u,u,v,v,u,u,v
+inpsize:17	time:	0.00778103
+OUTPUT _,v,v,v,v,u,u,u,u,u,v,u,u,v,v,u,u,v
+inpsize:17	time:	0.00526404
+OUTPUT _,v,v,v,v,u,u,u,u,u,v,u,u,v,v,u,u,v
+inpsize:17	time:	0.00746202
+OUTPUT _,v,v,v,v,u,u,u,u,u,v,u,u,v,v,u,u,v
+inpsize:17	time:	0.00593209
+OUTPUT _,v,v,v,v,u,u,u,u,u,v,u,u,v,v,u,u,v
+inpsize:17	time:	0.0114522
+OUTPUT _,v,v,v,v,u,u,u,u,u,v,u,u,v,v,u,u,v
+inpsize:17	time:	0.00408912
+OUTPUT _,v,v,v,v,u,u,u,u,u,v,u,u,v,v,u,u,v
+inpsize:17	time:	0.0042491
+OUTPUT _,v,v,v,v,u,u,u,u,u,v,u,u,v,v,u,u,v
+inpsize:17	time:	0.00483084
+OUTPUT _,v,v,v,v,u,u,u,u,u,v,u,u,v,v,u,u,v
+inpsize:17	time:	0.005867
+OUTPUT _,v,v,v,v,u,u,u,u,u,v,u,u,v,v,u,u,v
+inpsize:17	time:	0.00903392
+OUTPUT _,v,v,v,v,u,u,u,u,u,v,u,u,v,v,u,u,v
+inpsize:17	time:	0.00381207
+OUTPUT _,v,v,v,v,u,u,u,u,u,v,u,u,v,v,u,u,v
+inpsize:17	time:	0.00781703
+OUTPUT _,v,v,v,v,u,u,u,u,u,v,u,u,v,v,u,u,v
+inpsize:17	time:	0.00425601
+OUTPUT _,v,v,v,v,u,u,u,u,u,v,u,u,v,v,u,u,v
+inpsize:17	time:	0.00871205
+OUTPUT _,v,v,v,v,u,u,u,u,u,v,u,u,v,v,u,u,v
+inpsize:17	time:	0.0066092
+OUTPUT _,v,v,v,v,u,u,u,u,u,v,u,u,v,v,u,u,v
+inpsize:17	time:	0.00622511
+OUTPUT _,v,v,v,v,u,u,u,u,u,v,u,u,v,v,u,u,v
+inpsize:17	time:	0.00670981
+OUTPUT _,v,v,v,v,u,u,u,u,u,v,u,u,v,v,u,u,v
+inpsize:17	time:	0.00798106
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,v,v,u,u,u,v,u,u
+inpsize:18	time:	0.0123649
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,v,v,u,u,u,v,u,u
+inpsize:18	time:	0.00527406
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,v,v,u,u,u,v,u,u
+inpsize:18	time:	0.0062871
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,v,v,u,u,u,v,u,u
+inpsize:18	time:	0.0106311
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,v,v,u,u,u,v,u,u
+inpsize:18	time:	0.00681305
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,v,v,u,u,u,v,u,u
+inpsize:18	time:	0.0113599
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,v,v,u,u,u,v,u,u
+inpsize:18	time:	0.00960398
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,v,v,u,u,u,v,u,u
+inpsize:18	time:	0.00590014
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,v,v,u,u,u,v,u,u
+inpsize:18	time:	0.00822091
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,v,v,u,u,u,v,u,u
+inpsize:18	time:	0.0100849
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,v,v,u,u,u,v,u,u
+inpsize:18	time:	0.00825787
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,v,v,u,u,u,v,u,u
+inpsize:18	time:	0.00494599
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,v,v,u,u,u,v,u,u
+inpsize:18	time:	0.00670981
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,v,v,u,u,u,v,u,u
+inpsize:18	time:	0.0485229
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,v,v,u,u,u,v,u,u
+inpsize:18	time:	0.0106139
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,v,v,u,u,u,v,u,u
+inpsize:18	time:	0.00491595
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,v,v,u,u,u,v,u,u
+inpsize:18	time:	0.00878406
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,v,v,u,u,u,v,u,u
+inpsize:18	time:	0.010515
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,v,v,u,u,u,v,u,u
+inpsize:18	time:	0.00485897
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,v,v,u,u,u,v,u,u
+inpsize:18	time:	0.00895691
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,v,u,v
+inpsize:19	time:	0.00903392
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,v,u,v
+inpsize:19	time:	0.00907183
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,v,u,v
+inpsize:19	time:	0.00754595
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,v,u,v
+inpsize:19	time:	0.00766301
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,v,u,v
+inpsize:19	time:	0.020426
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,v,u,v
+inpsize:19	time:	0.00846291
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,v,u,v
+inpsize:19	time:	0.00714183
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,v,u,v
+inpsize:19	time:	0.0220342
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,v,u,v
+inpsize:19	time:	0.00901198
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,v,u,v
+inpsize:19	time:	0.00808406
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,v,u,v
+inpsize:19	time:	0.00446486
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,v,u,v
+inpsize:19	time:	0.00843501
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,v,u,v
+inpsize:19	time:	0.00570202
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,v,u,v
+inpsize:19	time:	0.00496888
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,v,u,v
+inpsize:19	time:	0.0126519
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,v,u,v
+inpsize:19	time:	0.0045321
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,v,u,v
+inpsize:19	time:	0.0043819
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,v,u,v
+inpsize:19	time:	0.00847793
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,v,u,v
+inpsize:19	time:	0.0068121
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,v,u,v
+inpsize:19	time:	0.00448704
+OUTPUT _,v,v,v,v,u,v,u,u,v,u,u,u,u,u,u,u,u,u,u,v
+inpsize:20	time:	0.0123332
+OUTPUT _,v,v,v,v,u,v,u,u,v,u,u,u,u,u,u,u,u,u,u,v
+inpsize:20	time:	0.00612211
+OUTPUT _,v,v,v,v,u,v,u,u,v,u,u,u,u,u,u,u,u,u,u,v
+inpsize:20	time:	0.011909
+OUTPUT _,v,v,v,v,u,v,u,u,v,u,u,u,u,u,u,u,u,u,u,v
+inpsize:20	time:	0.0100479
+OUTPUT _,v,v,v,v,u,v,u,u,v,u,u,u,u,u,u,u,u,u,u,v
+inpsize:20	time:	0.009763
+OUTPUT _,v,v,v,v,u,v,u,u,v,u,u,u,u,u,u,u,u,u,u,v
+inpsize:20	time:	0.0114119
+OUTPUT _,v,v,v,v,u,v,u,u,v,u,u,u,u,u,u,u,u,u,u,v
+inpsize:20	time:	0.0130219
+OUTPUT _,v,v,v,v,u,v,u,u,v,u,u,u,u,u,u,u,u,u,u,v
+inpsize:20	time:	0.013797
+OUTPUT _,v,v,v,v,u,v,u,u,v,u,u,u,u,u,u,u,u,u,u,v
+inpsize:20	time:	0.00653195
+OUTPUT _,v,v,v,v,u,v,u,u,v,u,u,u,u,u,u,u,u,u,u,v
+inpsize:20	time:	0.00855684
+OUTPUT _,v,v,v,v,u,v,u,u,v,u,u,u,u,u,u,u,u,u,u,v
+inpsize:20	time:	0.00886703
+OUTPUT _,v,v,v,v,u,v,u,u,v,u,u,u,u,u,u,u,u,u,u,v
+inpsize:20	time:	0.0119629
+OUTPUT _,v,v,v,v,u,v,u,u,v,u,u,u,u,u,u,u,u,u,u,v
+inpsize:20	time:	0.00663185
+OUTPUT _,v,v,v,v,u,v,u,u,v,u,u,u,u,u,u,u,u,u,u,v
+inpsize:20	time:	0.00983477
+OUTPUT _,v,v,v,v,u,v,u,u,v,u,u,u,u,u,u,u,u,u,u,v
+inpsize:20	time:	0.00700998
+OUTPUT _,v,v,v,v,u,v,u,u,v,u,u,u,u,u,u,u,u,u,u,v
+inpsize:20	time:	0.00508785
+OUTPUT _,v,v,v,v,u,v,u,u,v,u,u,u,u,u,u,u,u,u,u,v
+inpsize:20	time:	0.0101869
+OUTPUT _,v,v,v,v,u,v,u,u,v,u,u,u,u,u,u,u,u,u,u,v
+inpsize:20	time:	0.0140991
+OUTPUT _,v,v,v,v,u,v,u,u,v,u,u,u,u,u,u,u,u,u,u,v
+inpsize:20	time:	0.018369
+OUTPUT _,v,v,v,v,u,v,u,u,v,u,u,u,u,u,u,u,u,u,u,v
+inpsize:20	time:	0.00634098
+OUTPUT _,v,v,v,v,v,u,u,u,u,v,u,v,u,v,u,u,u,u,u,u,u
+inpsize:21	time:	0.00432014
+OUTPUT _,v,v,v,v,v,u,u,u,u,v,u,v,u,v,u,u,u,u,u,u,u
+inpsize:21	time:	0.00412202
+OUTPUT _,v,v,v,v,v,u,u,u,u,v,u,v,u,v,u,u,u,u,u,u,u
+inpsize:21	time:	0.0036819
+OUTPUT _,v,v,v,v,v,u,u,u,u,v,u,v,u,v,u,u,u,u,u,u,u
+inpsize:21	time:	0.005481
+OUTPUT _,v,v,v,v,v,u,u,u,u,v,u,v,u,v,u,u,u,u,u,u,u
+inpsize:21	time:	0.00340915
+OUTPUT _,v,v,v,v,v,u,u,u,u,v,u,v,u,v,u,u,u,u,u,u,u
+inpsize:21	time:	0.00737119
+OUTPUT _,v,v,v,v,v,u,u,u,u,v,u,v,u,v,u,u,u,u,u,u,u
+inpsize:21	time:	0.00471807
+OUTPUT _,v,v,v,v,v,u,u,u,u,v,u,v,u,v,u,u,u,u,u,u,u
+inpsize:21	time:	0.00703216
+OUTPUT _,v,v,v,v,v,u,u,u,u,v,u,v,u,v,u,u,u,u,u,u,u
+inpsize:21	time:	0.00789094
+OUTPUT _,v,v,v,v,v,u,u,u,u,v,u,v,u,v,u,u,u,u,u,u,u
+inpsize:21	time:	0.0066061
+OUTPUT _,v,v,v,v,v,u,u,u,u,v,u,v,u,v,u,u,u,u,u,u,u
+inpsize:21	time:	0.00519109
+OUTPUT _,v,v,v,v,v,u,u,u,u,v,u,v,u,v,u,u,u,u,u,u,u
+inpsize:21	time:	0.00558209
+OUTPUT _,v,v,v,v,v,u,u,u,u,v,u,v,u,v,u,u,u,u,u,u,u
+inpsize:21	time:	0.00636411
+OUTPUT _,v,v,v,v,v,u,u,u,u,v,u,v,u,v,u,u,u,u,u,u,u
+inpsize:21	time:	0.00921988
+OUTPUT _,v,v,v,v,v,u,u,u,u,v,u,v,u,v,u,u,u,u,u,u,u
+inpsize:21	time:	0.0154071
+OUTPUT _,v,v,v,v,v,u,u,u,u,v,u,v,u,v,u,u,u,u,u,u,u
+inpsize:21	time:	0.00453091
+OUTPUT _,v,v,v,v,v,u,u,u,u,v,u,v,u,v,u,u,u,u,u,u,u
+inpsize:21	time:	0.00831413
+OUTPUT _,v,v,v,v,v,u,u,u,u,v,u,v,u,v,u,u,u,u,u,u,u
+inpsize:21	time:	0.00986099
+OUTPUT _,v,v,v,v,v,u,u,u,u,v,u,v,u,v,u,u,u,u,u,u,u
+inpsize:21	time:	0.00407386
+OUTPUT _,v,v,v,v,v,u,u,u,u,v,u,v,u,v,u,u,u,u,u,u,u
+inpsize:21	time:	0.00452805
+OUTPUT _,v,v,v,v,v,u,u,u,v,u,u,u,v,u,u,u,u,u,u,u,u,u
+inpsize:22	time:	0.00383806
+OUTPUT _,v,v,v,v,v,u,u,u,v,u,u,u,v,u,u,u,u,u,u,u,u,u
+inpsize:22	time:	0.00771713
+OUTPUT _,v,v,v,v,v,u,u,u,v,u,u,u,v,u,u,u,u,u,u,u,u,u
+inpsize:22	time:	0.00383997
+OUTPUT _,v,v,v,v,v,u,u,u,v,u,u,u,v,u,u,u,u,u,u,u,u,u
+inpsize:22	time:	0.00598407
+OUTPUT _,v,v,v,v,v,u,u,u,v,u,u,u,v,u,u,u,u,u,u,u,u,u
+inpsize:22	time:	0.00755095
+OUTPUT _,v,v,v,v,v,u,u,u,v,u,u,u,v,u,u,u,u,u,u,u,u,u
+inpsize:22	time:	0.0142071
+OUTPUT _,v,v,v,v,v,u,u,u,v,u,u,u,v,u,u,u,u,u,u,u,u,u
+inpsize:22	time:	0.00448394
+OUTPUT _,v,v,v,v,v,u,u,u,v,u,u,u,v,u,u,u,u,u,u,u,u,u
+inpsize:22	time:	0.00447702
+OUTPUT _,v,v,v,v,v,u,u,u,v,u,u,u,v,u,u,u,u,u,u,u,u,u
+inpsize:22	time:	0.0106628
+OUTPUT _,v,v,v,v,v,u,u,u,v,u,u,u,v,u,u,u,u,u,u,u,u,u
+inpsize:22	time:	0.0113671
+OUTPUT _,v,v,v,v,v,u,u,u,v,u,u,u,v,u,u,u,u,u,u,u,u,u
+inpsize:22	time:	0.00712204
+OUTPUT _,v,v,v,v,v,u,u,u,v,u,u,u,v,u,u,u,u,u,u,u,u,u
+inpsize:22	time:	0.00678587
+OUTPUT _,v,v,v,v,v,u,u,u,v,u,u,u,v,u,u,u,u,u,u,u,u,u
+inpsize:22	time:	0.0076921
+OUTPUT _,v,v,v,v,v,u,u,u,v,u,u,u,v,u,u,u,u,u,u,u,u,u
+inpsize:22	time:	0.00864005
+OUTPUT _,v,v,v,v,v,u,u,u,v,u,u,u,v,u,u,u,u,u,u,u,u,u
+inpsize:22	time:	0.00864196
+OUTPUT _,v,v,v,v,v,u,u,u,v,u,u,u,v,u,u,u,u,u,u,u,u,u
+inpsize:22	time:	0.00753093
+OUTPUT _,v,v,v,v,v,u,u,u,v,u,u,u,v,u,u,u,u,u,u,u,u,u
+inpsize:22	time:	0.00493813
+OUTPUT _,v,v,v,v,v,u,u,u,v,u,u,u,v,u,u,u,u,u,u,u,u,u
+inpsize:22	time:	0.00756907
+OUTPUT _,v,v,v,v,v,u,u,u,v,u,u,u,v,u,u,u,u,u,u,u,u,u
+inpsize:22	time:	0.00948596
+OUTPUT _,v,v,v,v,v,u,u,u,v,u,u,u,v,u,u,u,u,u,u,u,u,u
+inpsize:22	time:	0.0126779
+OUTPUT _,v,v,v,v,v,u,v,u,u,u,u,v,v,u,u,u,v,u,u,u,u,u,u
+inpsize:23	time:	0.0116239
+OUTPUT _,v,v,v,v,v,u,v,u,u,u,u,v,v,u,u,u,v,u,u,u,u,u,u
+inpsize:23	time:	0.00850391
+OUTPUT _,v,v,v,v,v,u,v,u,u,u,u,v,v,u,u,u,v,u,u,u,u,u,u
+inpsize:23	time:	0.00870419
+OUTPUT _,v,v,v,v,v,u,v,u,u,u,u,v,v,u,u,u,v,u,u,u,u,u,u
+inpsize:23	time:	0.013474
+OUTPUT _,v,v,v,v,v,u,v,u,u,u,u,v,v,u,u,u,v,u,u,u,u,u,u
+inpsize:23	time:	0.00707984
+OUTPUT _,v,v,v,v,v,u,v,u,u,u,u,v,v,u,u,u,v,u,u,u,u,u,u
+inpsize:23	time:	0.00840902
+OUTPUT _,v,v,v,v,v,u,v,u,u,u,u,v,v,u,u,u,v,u,u,u,u,u,u
+inpsize:23	time:	0.00859904
+OUTPUT _,v,v,v,v,v,u,v,u,u,u,u,v,v,u,u,u,v,u,u,u,u,u,u
+inpsize:23	time:	0.00466299
+OUTPUT _,v,v,v,v,v,u,v,u,u,u,u,v,v,u,u,u,v,u,u,u,u,u,u
+inpsize:23	time:	0.0039432
+OUTPUT _,v,v,v,v,v,u,v,u,u,u,u,v,v,u,u,u,v,u,u,u,u,u,u
+inpsize:23	time:	0.00777292
+OUTPUT _,v,v,v,v,v,u,v,u,u,u,u,v,v,u,u,u,v,u,u,u,u,u,u
+inpsize:23	time:	0.00559592
+OUTPUT _,v,v,v,v,v,u,v,u,u,u,u,v,v,u,u,u,v,u,u,u,u,u,u
+inpsize:23	time:	0.00455499
+OUTPUT _,v,v,v,v,v,u,v,u,u,u,u,v,v,u,u,u,v,u,u,u,u,u,u
+inpsize:23	time:	0.0096941
+OUTPUT _,v,v,v,v,v,u,v,u,u,u,u,v,v,u,u,u,v,u,u,u,u,u,u
+inpsize:23	time:	0.00786495
+OUTPUT _,v,v,v,v,v,u,v,u,u,u,u,v,v,u,u,u,v,u,u,u,u,u,u
+inpsize:23	time:	0.0113182
+OUTPUT _,v,v,v,v,v,u,v,u,u,u,u,v,v,u,u,u,v,u,u,u,u,u,u
+inpsize:23	time:	0.00632191
+OUTPUT _,v,v,v,v,v,u,v,u,u,u,u,v,v,u,u,u,v,u,u,u,u,u,u
+inpsize:23	time:	0.00599313
+OUTPUT _,v,v,v,v,v,u,v,u,u,u,u,v,v,u,u,u,v,u,u,u,u,u,u
+inpsize:23	time:	0.00863695
+OUTPUT _,v,v,v,v,v,u,v,u,u,u,u,v,v,u,u,u,v,u,u,u,u,u,u
+inpsize:23	time:	0.016979
+OUTPUT _,v,v,v,v,v,u,v,u,u,u,u,v,v,u,u,u,v,u,u,u,u,u,u
+inpsize:23	time:	0.0116351
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u
+inpsize:24	time:	0.00617886
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u
+inpsize:24	time:	0.00734377
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u
+inpsize:24	time:	0.00340509
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u
+inpsize:24	time:	0.00897098
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u
+inpsize:24	time:	0.00688791
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u
+inpsize:24	time:	0.00537705
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u
+inpsize:24	time:	0.0138931
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u
+inpsize:24	time:	0.012754
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u
+inpsize:24	time:	0.00588679
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u
+inpsize:24	time:	0.00482297
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u
+inpsize:24	time:	0.00623798
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u
+inpsize:24	time:	0.00642991
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u
+inpsize:24	time:	0.00445914
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u
+inpsize:24	time:	0.00966001
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u
+inpsize:24	time:	0.00961185
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u
+inpsize:24	time:	0.00502181
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u
+inpsize:24	time:	0.00646591
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u
+inpsize:24	time:	0.00972795
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u
+inpsize:24	time:	0.00936508
+OUTPUT _,v,v,v,v,v,v,u,u,v,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u
+inpsize:24	time:	0.00415611
+OUTPUT _,v,v,v,v,u,u,u,u,u,u,v,u,u,u,v,u,v,u,v,v,u,u,u,u,u
+inpsize:25	time:	0.00802302
+OUTPUT _,v,v,v,v,u,u,u,u,u,u,v,u,u,u,v,u,v,u,v,v,u,u,u,u,u
+inpsize:25	time:	0.00593114
+OUTPUT _,v,v,v,v,u,u,u,u,u,u,v,u,u,u,v,u,v,u,v,v,u,u,u,u,u
+inpsize:25	time:	0.00589705
+OUTPUT _,v,v,v,v,u,u,u,u,u,u,v,u,u,u,v,u,v,u,v,v,u,u,u,u,u
+inpsize:25	time:	0.00741005
+OUTPUT _,v,v,v,v,u,u,u,u,u,u,v,u,u,u,v,u,v,u,v,v,u,u,u,u,u
+inpsize:25	time:	0.007442
+OUTPUT _,v,v,v,v,u,u,u,u,u,u,v,u,u,u,v,u,v,u,v,v,u,u,u,u,u
+inpsize:25	time:	0.00507092
+OUTPUT _,v,v,v,v,u,u,u,u,u,u,v,u,u,u,v,u,v,u,v,v,u,u,u,u,u
+inpsize:25	time:	0.0486929
+OUTPUT _,v,v,v,v,u,u,u,u,u,u,v,u,u,u,v,u,v,u,v,v,u,u,u,u,u
+inpsize:25	time:	0.0054791
+OUTPUT _,v,v,v,v,u,u,u,u,u,u,v,u,u,u,v,u,v,u,v,v,u,u,u,u,u
+inpsize:25	time:	0.00624299
+OUTPUT _,v,v,v,v,u,u,u,u,u,u,v,u,u,u,v,u,v,u,v,v,u,u,u,u,u
+inpsize:25	time:	0.00959396
+OUTPUT _,v,v,v,v,u,u,u,u,u,u,v,u,u,u,v,u,v,u,v,v,u,u,u,u,u
+inpsize:25	time:	0.00498319
+OUTPUT _,v,v,v,v,u,u,u,u,u,u,v,u,u,u,v,u,v,u,v,v,u,u,u,u,u
+inpsize:25	time:	0.0104001
+OUTPUT _,v,v,v,v,u,u,u,u,u,u,v,u,u,u,v,u,v,u,v,v,u,u,u,u,u
+inpsize:25	time:	0.00396085
+OUTPUT _,v,v,v,v,u,u,u,u,u,u,v,u,u,u,v,u,v,u,v,v,u,u,u,u,u
+inpsize:25	time:	0.0100319
+OUTPUT _,v,v,v,v,u,u,u,u,u,u,v,u,u,u,v,u,v,u,v,v,u,u,u,u,u
+inpsize:25	time:	0.00549603
+OUTPUT _,v,v,v,v,u,u,u,u,u,u,v,u,u,u,v,u,v,u,v,v,u,u,u,u,u
+inpsize:25	time:	0.00951886
+OUTPUT _,v,v,v,v,u,u,u,u,u,u,v,u,u,u,v,u,v,u,v,v,u,u,u,u,u
+inpsize:25	time:	0.00590301
+OUTPUT _,v,v,v,v,u,u,u,u,u,u,v,u,u,u,v,u,v,u,v,v,u,u,u,u,u
+inpsize:25	time:	0.00671315
+OUTPUT _,v,v,v,v,u,u,u,u,u,u,v,u,u,u,v,u,v,u,v,v,u,u,u,u,u
+inpsize:25	time:	0.0209959
+OUTPUT _,v,v,v,v,u,u,u,u,u,u,v,u,u,u,v,u,v,u,v,v,u,u,u,u,u
+inpsize:25	time:	0.00594783
+OUTPUT _,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,u,u,u,u,u,v,v,v,u,u,u
+inpsize:26	time:	0.00550604
+OUTPUT _,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,u,u,u,u,u,v,v,v,u,u,u
+inpsize:26	time:	0.00553918
+OUTPUT _,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,u,u,u,u,u,v,v,v,u,u,u
+inpsize:26	time:	0.00623107
+OUTPUT _,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,u,u,u,u,u,v,v,v,u,u,u
+inpsize:26	time:	0.00650406
+OUTPUT _,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,u,u,u,u,u,v,v,v,u,u,u
+inpsize:26	time:	0.00775814
+OUTPUT _,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,u,u,u,u,u,v,v,v,u,u,u
+inpsize:26	time:	0.0114019
+OUTPUT _,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,u,u,u,u,u,v,v,v,u,u,u
+inpsize:26	time:	0.005059
+OUTPUT _,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,u,u,u,u,u,v,v,v,u,u,u
+inpsize:26	time:	0.0191028
+OUTPUT _,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,u,u,u,u,u,v,v,v,u,u,u
+inpsize:26	time:	0.00763202
+OUTPUT _,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,u,u,u,u,u,v,v,v,u,u,u
+inpsize:26	time:	0.00535393
+OUTPUT _,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,u,u,u,u,u,v,v,v,u,u,u
+inpsize:26	time:	0.00979114
+OUTPUT _,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,u,u,u,u,u,v,v,v,u,u,u
+inpsize:26	time:	0.00691199
+OUTPUT _,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,u,u,u,u,u,v,v,v,u,u,u
+inpsize:26	time:	0.0127559
+OUTPUT _,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,u,u,u,u,u,v,v,v,u,u,u
+inpsize:26	time:	0.00931311
+OUTPUT _,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,u,u,u,u,u,v,v,v,u,u,u
+inpsize:26	time:	0.008389
+OUTPUT _,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,u,u,u,u,u,v,v,v,u,u,u
+inpsize:26	time:	0.011647
+OUTPUT _,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,u,u,u,u,u,v,v,v,u,u,u
+inpsize:26	time:	0.0164561
+OUTPUT _,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,u,u,u,u,u,v,v,v,u,u,u
+inpsize:26	time:	0.011425
+OUTPUT _,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,u,u,u,u,u,v,v,v,u,u,u
+inpsize:26	time:	0.00610113
+OUTPUT _,v,v,v,v,v,u,u,v,u,u,v,u,u,u,u,u,u,u,u,u,v,v,v,u,u,u
+inpsize:26	time:	0.00757408
+OUTPUT _,v,v,v,v,v,v,u,v,u,u,u,v,u,u,u,u,v,u,u,u,v,u,u,u,u,u,u
+inpsize:27	time:	0.00679898
+OUTPUT _,v,v,v,v,v,v,u,v,u,u,u,v,u,u,u,u,v,u,u,u,v,u,u,u,u,u,u
+inpsize:27	time:	0.00566816
+OUTPUT _,v,v,v,v,v,v,u,v,u,u,u,v,u,u,u,u,v,u,u,u,v,u,u,u,u,u,u
+inpsize:27	time:	0.0108011
+OUTPUT _,v,v,v,v,v,v,u,v,u,u,u,v,u,u,u,u,v,u,u,u,v,u,u,u,u,u,u
+inpsize:27	time:	0.00531101
+OUTPUT _,v,v,v,v,v,v,u,v,u,u,u,v,u,u,u,u,v,u,u,u,v,u,u,u,u,u,u
+inpsize:27	time:	0.00372696
+OUTPUT _,v,v,v,v,v,v,u,v,u,u,u,v,u,u,u,u,v,u,u,u,v,u,u,u,u,u,u
+inpsize:27	time:	0.00419998
+OUTPUT _,v,v,v,v,v,v,u,v,u,u,u,v,u,u,u,u,v,u,u,u,v,u,u,u,u,u,u
+inpsize:27	time:	0.00920391
+OUTPUT _,v,v,v,v,v,v,u,v,u,u,u,v,u,u,u,u,v,u,u,u,v,u,u,u,u,u,u
+inpsize:27	time:	0.027396
+OUTPUT _,v,v,v,v,v,v,u,v,u,u,u,v,u,u,u,u,v,u,u,u,v,u,u,u,u,u,u
+inpsize:27	time:	0.00753903
+OUTPUT _,v,v,v,v,v,v,u,v,u,u,u,v,u,u,u,u,v,u,u,u,v,u,u,u,u,u,u
+inpsize:27	time:	0.0105309
+OUTPUT _,v,v,v,v,v,v,u,v,u,u,u,v,u,u,u,u,v,u,u,u,v,u,u,u,u,u,u
+inpsize:27	time:	0.012711
+OUTPUT _,v,v,v,v,v,v,u,v,u,u,u,v,u,u,u,u,v,u,u,u,v,u,u,u,u,u,u
+inpsize:27	time:	0.0110719
+OUTPUT _,v,v,v,v,v,v,u,v,u,u,u,v,u,u,u,u,v,u,u,u,v,u,u,u,u,u,u
+inpsize:27	time:	0.00792003
+OUTPUT _,v,v,v,v,v,v,u,v,u,u,u,v,u,u,u,u,v,u,u,u,v,u,u,u,u,u,u
+inpsize:27	time:	0.00609398
+OUTPUT _,v,v,v,v,v,v,u,v,u,u,u,v,u,u,u,u,v,u,u,u,v,u,u,u,u,u,u
+inpsize:27	time:	0.00465488
+OUTPUT _,v,v,v,v,v,v,u,v,u,u,u,v,u,u,u,u,v,u,u,u,v,u,u,u,u,u,u
+inpsize:27	time:	0.00635409
+OUTPUT _,v,v,v,v,v,v,u,v,u,u,u,v,u,u,u,u,v,u,u,u,v,u,u,u,u,u,u
+inpsize:27	time:	0.0145378
+OUTPUT _,v,v,v,v,v,v,u,v,u,u,u,v,u,u,u,u,v,u,u,u,v,u,u,u,u,u,u
+inpsize:27	time:	0.00375509
+OUTPUT _,v,v,v,v,v,v,u,v,u,u,u,v,u,u,u,u,v,u,u,u,v,u,u,u,u,u,u
+inpsize:27	time:	0.0108569
+OUTPUT _,v,v,v,v,v,v,u,v,u,u,u,v,u,u,u,u,v,u,u,u,v,u,u,u,u,u,u
+inpsize:27	time:	0.0066669
+OUTPUT _,v,v,v,v,v,u,v,u,v,v,u,u,u,u,u,u,v,v,v,u,u,u,u,u,u,v,u,u
+inpsize:28	time:	0.00815701
+OUTPUT _,v,v,v,v,v,u,v,u,v,v,u,u,u,u,u,u,v,v,v,u,u,u,u,u,u,v,u,u
+inpsize:28	time:	0.0123801
+OUTPUT _,v,v,v,v,v,u,v,u,v,v,u,u,u,u,u,u,v,v,v,u,u,u,u,u,u,v,u,u
+inpsize:28	time:	0.00736499
+OUTPUT _,v,v,v,v,v,u,v,u,v,v,u,u,u,u,u,u,v,v,v,u,u,u,u,u,u,v,u,u
+inpsize:28	time:	0.0135961
+OUTPUT _,v,v,v,v,v,u,v,u,v,v,u,u,u,u,u,u,v,v,v,u,u,u,u,u,u,v,u,u
+inpsize:28	time:	0.00481701
+OUTPUT _,v,v,v,v,v,u,v,u,v,v,u,u,u,u,u,u,v,v,v,u,u,u,u,u,u,v,u,u
+inpsize:28	time:	0.013154
+OUTPUT _,v,v,v,v,v,u,v,u,v,v,u,u,u,u,u,u,v,v,v,u,u,u,u,u,u,v,u,u
+inpsize:28	time:	0.012785
+OUTPUT _,v,v,v,v,v,u,v,u,v,v,u,u,u,u,u,u,v,v,v,u,u,u,u,u,u,v,u,u
+inpsize:28	time:	0.00488186
+OUTPUT _,v,v,v,v,v,u,v,u,v,v,u,u,u,u,u,u,v,v,v,u,u,u,u,u,u,v,u,u
+inpsize:28	time:	0.00542808
+OUTPUT _,v,v,v,v,v,u,v,u,v,v,u,u,u,u,u,u,v,v,v,u,u,u,u,u,u,v,u,u
+inpsize:28	time:	0.00622201
+OUTPUT _,v,v,v,v,v,u,v,u,v,v,u,u,u,u,u,u,v,v,v,u,u,u,u,u,u,v,u,u
+inpsize:28	time:	0.00734901
+OUTPUT _,v,v,v,v,v,u,v,u,v,v,u,u,u,u,u,u,v,v,v,u,u,u,u,u,u,v,u,u
+inpsize:28	time:	0.00627303
+OUTPUT _,v,v,v,v,v,u,v,u,v,v,u,u,u,u,u,u,v,v,v,u,u,u,u,u,u,v,u,u
+inpsize:28	time:	0.00695992
+OUTPUT _,v,v,v,v,v,u,v,u,v,v,u,u,u,u,u,u,v,v,v,u,u,u,u,u,u,v,u,u
+inpsize:28	time:	0.005234
+OUTPUT _,v,v,v,v,v,u,v,u,v,v,u,u,u,u,u,u,v,v,v,u,u,u,u,u,u,v,u,u
+inpsize:28	time:	0.00472784
+OUTPUT _,v,v,v,v,v,u,v,u,v,v,u,u,u,u,u,u,v,v,v,u,u,u,u,u,u,v,u,u
+inpsize:28	time:	0.00422215
+OUTPUT _,v,v,v,v,v,u,v,u,v,v,u,u,u,u,u,u,v,v,v,u,u,u,u,u,u,v,u,u
+inpsize:28	time:	0.009583
+OUTPUT _,v,v,v,v,v,u,v,u,v,v,u,u,u,u,u,u,v,v,v,u,u,u,u,u,u,v,u,u
+inpsize:28	time:	0.00377393
+OUTPUT _,v,v,v,v,v,u,v,u,v,v,u,u,u,u,u,u,v,v,v,u,u,u,u,u,u,v,u,u
+inpsize:28	time:	0.00582099
+OUTPUT _,v,v,v,v,v,u,v,u,v,v,u,u,u,u,u,u,v,v,v,u,u,u,u,u,u,v,u,u
+inpsize:28	time:	0.00571704
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+inpsize:29	time:	0.0114191
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+inpsize:29	time:	0.00766397
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+inpsize:29	time:	0.0113671
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+inpsize:29	time:	0.00613403
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+inpsize:29	time:	0.00517392
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+inpsize:29	time:	0.00820518
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+inpsize:29	time:	0.011132
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+inpsize:29	time:	0.00721288
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+inpsize:29	time:	0.00893283
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+inpsize:29	time:	0.0119979
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+inpsize:29	time:	0.00735998
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+inpsize:29	time:	0.0800369
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+inpsize:29	time:	0.014493
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+inpsize:29	time:	0.0114162
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+inpsize:29	time:	0.00367808
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+inpsize:29	time:	0.00601602
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+inpsize:29	time:	0.00579381
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+inpsize:29	time:	0.0131519
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+inpsize:29	time:	0.00725889
+OUTPUT _,v,v,v,v,u,u,u,v,v,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+inpsize:29	time:	0.00474095
+OUTPUT _,v,v,v,v,u,u,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u,u,u,u,u,u,u,v,u,u
+inpsize:30	time:	0.00442696
+OUTPUT _,v,v,v,v,u,u,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u,u,u,u,u,u,u,v,u,u
+inpsize:30	time:	0.00709915
+OUTPUT _,v,v,v,v,u,u,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u,u,u,u,u,u,u,v,u,u
+inpsize:30	time:	0.00617099
+OUTPUT _,v,v,v,v,u,u,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u,u,u,u,u,u,u,v,u,u
+inpsize:30	time:	0.0171762
+OUTPUT _,v,v,v,v,u,u,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u,u,u,u,u,u,u,v,u,u
+inpsize:30	time:	0.00506401
+OUTPUT _,v,v,v,v,u,u,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u,u,u,u,u,u,u,v,u,u
+inpsize:30	time:	0.00391698
+OUTPUT _,v,v,v,v,u,u,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u,u,u,u,u,u,u,v,u,u
+inpsize:30	time:	0.00818896
+OUTPUT _,v,v,v,v,u,u,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u,u,u,u,u,u,u,v,u,u
+inpsize:30	time:	0.009444
+OUTPUT _,v,v,v,v,u,u,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u,u,u,u,u,u,u,v,u,u
+inpsize:30	time:	0.00409508
+OUTPUT _,v,v,v,v,u,u,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u,u,u,u,u,u,u,v,u,u
+inpsize:30	time:	0.0129192
+OUTPUT _,v,v,v,v,u,u,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u,u,u,u,u,u,u,v,u,u
+inpsize:30	time:	0.00474787
+OUTPUT _,v,v,v,v,u,u,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u,u,u,u,u,u,u,v,u,u
+inpsize:30	time:	0.00753808
+OUTPUT _,v,v,v,v,u,u,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u,u,u,u,u,u,u,v,u,u
+inpsize:30	time:	0.00978303
+OUTPUT _,v,v,v,v,u,u,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u,u,u,u,u,u,u,v,u,u
+inpsize:30	time:	0.00664806
+OUTPUT _,v,v,v,v,u,u,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u,u,u,u,u,u,u,v,u,u
+inpsize:30	time:	0.010823
+OUTPUT _,v,v,v,v,u,u,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u,u,u,u,u,u,u,v,u,u
+inpsize:30	time:	0.00695014
+OUTPUT _,v,v,v,v,u,u,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u,u,u,u,u,u,u,v,u,u
+inpsize:30	time:	0.014061
+OUTPUT _,v,v,v,v,u,u,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u,u,u,u,u,u,u,v,u,u
+inpsize:30	time:	0.017678
+OUTPUT _,v,v,v,v,u,u,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u,u,u,u,u,u,u,v,u,u
+inpsize:30	time:	0.00656509
+OUTPUT _,v,v,v,v,u,u,u,v,u,u,u,u,u,u,v,u,u,u,u,u,u,u,u,u,u,u,u,v,u,u
+inpsize:30	time:	0.00516701

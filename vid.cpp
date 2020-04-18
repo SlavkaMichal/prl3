@@ -270,7 +270,7 @@ int main(int argc, char *argv[])
     MPI_Finalize();
     end = MPI_Wtime();
     if (id == 0 && p == -1){
-        cout << "time: " << end-start << endl;
+        cout << "inpsize:"<< inpsize<<"\ttime:\t" << end-start << endl;
     }
 
     delete []array;

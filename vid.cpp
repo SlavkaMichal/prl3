@@ -6,7 +6,7 @@
 
 using namespace std;
 
-int p = 0; // verbosity level: 0 non, 1 up_sweep, 2 down_sweep
+int p = -1; // verbosity level: 0 non, 1 up_sweep, 2 down_sweep, -1 measure time
 
 /* sequential implementation of scan
    arr   - input array
@@ -113,8 +113,9 @@ int main(int argc, char *argv[])
     int inpsize;    // number of imputs without view position
     float *array;   // array for results
     float *angle;   // angles
-    int res;
+    int res;        // result
     int assigned;   // assigned elements counter
+    double start, end; // run time measurements
 
     MPI_Init(&argc, &argv);
     MPI_Comm_size(MPI_COMM_WORLD, &numprocs);
@@ -148,8 +149,9 @@ int main(int argc, char *argv[])
         assigned++;
     }
 
-
-
+    // synchronize processes for measuring time
+    MPI_Barrier(MPI_COMM_WORLD);
+    start = MPI_Wtime();
     // stop if process if it wont be used
     if (assigned == 0){
         MPI_Finalize();
@@ -265,9 +267,13 @@ int main(int argc, char *argv[])
             MPI_Send(&res , 1, MPI_INT, 0, 0, MPI_COMM_WORLD);
         }
     }
+    MPI_Finalize();
+    end = MPI_Wtime();
+    if (id == 0 && p == -1){
+        cout << "time: " << end-start << endl;
+    }
 
     delete []array;
     delete []angle;
-    MPI_Finalize();
     return 0;
 }

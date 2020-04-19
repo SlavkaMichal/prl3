@@ -6,7 +6,7 @@
 
 using namespace std;
 
-int p = -1; // verbosity level: 0 non, 1 up_sweep, 2 down_sweep, -1 measure time
+int p = 0; // verbosity level: 0 non, 1 up_sweep, 2 down_sweep, -1 measure time
 
 /* sequential implementation of scan
    arr   - input array

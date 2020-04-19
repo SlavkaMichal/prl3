@@ -1,0 +1,56 @@
+@startuml
+!pragma teoz true
+title Sequence diagram
+hide footbox
+
+participant cpu1
+participant cpu2
+participant cpu3
+participant cpu4
+participant cpu5
+participant cpu6
+participant cpu7
+participant cpu8
+
+== Up-sweep ==
+
+cpu1 -> cpu2:   Select max
+& cpu3 -> cpu4: Select max
+& cpu5 -> cpu6: Select max
+& cpu7 -> cpu8: Select max
+
+cpu2 -> cpu4:   Select max
+& cpu6 -> cpu8: Select max
+
+cpu4 -> cpu8:   Select max
+
+== Down-sweep ==
+
+cpu4 -> cpu8:   Select max
+cpu4 <- cpu8:   old cpu8 value
+
+cpu2 -> cpu4:   Select max
+& cpu6 -> cpu8: Select max
+cpu2 <- cpu4:   old cpu4 value
+& cpu6 <- cpu8: old cpu8 value
+
+cpu1 -> cpu2:   Select max
+& cpu3 -> cpu4: Select max
+& cpu5 -> cpu6: Select max
+& cpu7 -> cpu8: Select max
+cpu1 <- cpu2:   old cpu2 value
+& cpu3 <- cpu4: old cpu4 value
+& cpu5 <- cpu6: old cpu6 value
+& cpu7 <- cpu8: old cpu8 value
+
+== Collect results ==
+
+cpu2 -> cpu1: Send result
+cpu3 -> cpu1: Send result
+cpu4 -> cpu1: Send result
+cpu5 -> cpu1: Send result
+cpu6 -> cpu1: Send result
+cpu7 -> cpu1: Send result
+cpu8 -> cpu1: Send result
+
+@enduml
